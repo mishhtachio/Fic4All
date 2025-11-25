@@ -1,0 +1,175 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #6b86ff;
+  color: #202d64;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+header {
+  background: #6b86ff;
+  color: #202d64;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav a {
+  color: #202d64;
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.banner {
+  padding: 50px 5px;
+  text-align: center;
+  background: #b7c1ec;
+}
+
+.banner h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 15px;
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 25px;
+  color: #444;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px 18px;
+  background: #202d64;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background: #555;
+}
+
+.section {
+  padding: 20px 25px;
+}
+
+.section h3 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 1px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  max-width: 850px;
+  margin: auto;
+}
+
+.card {
+  background: #b7c1ec;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.card h4 {
+  margin: 0 0 -9px;
+  font-size: 22px;
+}
+
+footer {
+  background: #b7c1ec;
+  padding: 2px;
+  text-align: center;
+  font-size: 14px;
+  color: #3b3b3b;
+  border-top: 1px solid #ddd;
+}
+
+.form-container {
+  max-width: 350px;
+  margin: 60px auto;
+  padding-top: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 25px;
+  background: #b7c1ec;
+  border: 1px solid #000;
+  border-radius: 9px;
+  color: #222;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #111;
+}
+
+form input {
+  width: 100%;
+  padding: 9px;
+  margin-bottom: 12px;
+  margin-left: -5px;
+  border: 1px solid #111;
+  border-radius: 5px;
+  background: #f2f2f2;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background: #202d64;
+  color: white;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background: #555;
+}
+
+.form-footer {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.form-footer a {
+  color: #111;
+  text-decoration: underline;
+}
